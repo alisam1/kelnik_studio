@@ -1,0 +1,190 @@
+.main__choise
+{
+  width: 1060px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.main__card
+{
+  display:none;
+  width: 320px;
+  height: 522px;
+  border: 1px solid #a7a37e;
+  border-radius: 4px;
+  margin-bottom: 50px;
+  &--free
+  {
+    border: 1px solid #002f2f;
+  }
+  &--sale
+  {
+    border: 1px solid #a1a1a1;
+  }
+}
+
+.card__promo
+{
+  width: 320px;
+  height: 25px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin: 0 auto;
+}
+
+.card__book
+{
+  width: 19px;
+  height: 18px;
+  background-image: url("../img/icon_gray_star.svg");
+  position: relative;
+  left: 5px;
+
+  &--gold
+  {
+    background-image: url("../img/icon_star.svg");
+  }
+
+}
+
+.card__shock
+{
+  width: 75px;
+  text-align: center;
+}
+
+.card__shock
+{
+  position: relative;
+  right: 40px;
+}
+
+.card__shock, .card__discount
+{
+  height: 18px;
+  font-family: $font-family-semibold;
+  font-size: 12px;
+  color: #fff;
+  text-transform: uppercase;
+  background-color: #ff4444;
+  border-radius: 4px;
+  padding: 5px;
+  &--none
+  {
+    background-color: inherit;
+  }
+}
+
+.main__card img
+{
+  height: 200px;
+  width: 210px;
+  margin-left: 60px;
+  margin-top: 25px;
+}
+
+.card__title
+{
+  width: 210px;
+  height: 40px;
+  font-family: $font-family-bold;
+  color: #002f2f;
+  font-size: 24px;
+  line-height: 30px;
+  margin-left: 60px;
+}
+
+.card__info
+{
+  width: 210px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-left: 60px;
+}
+
+.card__repair
+{
+  font-family: $font-family;
+  font-size: 16px;
+  color: #046380;
+  margin-left: 15px;
+  position: relative;
+  bottom: 2px;
+}
+
+.card__repair span
+{
+  display: block;
+}
+
+.card__repair::before
+{
+  content: "";
+  position: absolute;
+  width: 3px;
+  height: 33px;
+  background-image: url("../img/rect_icon.svg");
+  margin-left: -10px;
+  margin-top: 2px;
+}
+
+.card__square
+{
+  font-family: $font-family;
+  font-size: 16px;
+  color: #313639;
+}
+
+.card__square span
+{
+  display: block;
+  font-size: 13px;
+}
+
+.card__stage
+{
+  font-family: $font-family;
+  font-size: 16px;
+  color: #313639;
+}
+
+.card__stage span
+{
+  display: block;
+  font-size: 13px;
+}
+
+.card__price
+{
+  font-family: $font-family-semibold;
+  font-size: 24px;
+  color: #313639;
+  margin-left: 60px;
+  padding-top: 20px;
+}
+
+.card__button
+{
+  width: 320px;
+  height: 36px;
+  background-color: #a7a37e;
+  border: none;
+  border-radius: 4px;
+  font-family: $font-family-semibold;
+  text-transform: uppercase;
+  color: #fff;
+  margin-top: 30px;
+  &--free
+  {
+    background-color: #002f2f;
+  }
+  &--sale
+  {
+    background-color: #a1a1a1;
+  }
+}

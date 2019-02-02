@@ -1,0 +1,31 @@
+.main__sort
+{
+  width: 320px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin-left: 110px;
+  padding-top: 30px;
+  margin-bottom: 50px;
+}
+
+.sort__title
+{
+  font-family: $font-family;
+  font-size: 14px;
+  color: #73807f;
+}
+
+.sort__price
+{
+  font-family: $font-family;
+  font-size: 14px;
+  color: #73807f;
+}
+
+.sort__room
+{
+  font-family: $font-family;
+  font-size: 14px;
+  color: #73807f;
+}

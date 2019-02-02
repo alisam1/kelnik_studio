@@ -1,0 +1,39 @@
+@import "variables.scss";
+@import "blocks/normalize.scss";
+@import "blocks/container.scss";
+@import "blocks/page-header.scss";
+@import "blocks/main.scss";
+@import "blocks/main__content.scss";
+@import "blocks/main__choise.scss";
+@import "blocks/sort.scss";
+@import "blocks/sale__form.scss";
+
+@font-face {
+	font-family: 'OpenSans-Bold';
+	src: url('../fonts/open_sans_bold.eot'); /* IE 9 Compatibility Mode */
+	src: url('../fonts/open_sans_bold.eot?#iefix') format('embedded-opentype'), /* IE < 9 */
+		url('../fonts/open_sans_bold.woff2') format('woff2'), /* Super Modern Browsers */
+		url('../fonts/open_sans_bold.woff') format('woff'), /* Firefox >= 3.6, any other modern browser */
+		url('../fonts/open_sans_bold.ttf') format('truetype'), /* Safari, Android, iOS */
+		url('../fonts/open_sans_bold.svg#open_sans_bold') format('svg'); /* Chrome < 4, Legacy iOS */
+}
+
+@font-face {
+	font-family: 'OpenSans';
+	src: url('../fonts/open_sans.eot'); /* IE 9 Compatibility Mode */
+	src: url('../fonts/open_sans.eot?#iefix') format('embedded-opentype'), /* IE < 9 */
+		url('../fonts/open_sans.woff2') format('woff2'), /* Super Modern Browsers */
+		url('../fonts/open_sans.woff') format('woff'), /* Firefox >= 3.6, any other modern browser */
+		url('../fonts/open_sans.ttf') format('truetype'), /* Safari, Android, iOS */
+		url('../fonts/open_sans.svg#open_sans') format('svg'); /* Chrome < 4, Legacy iOS */
+}
+
+@font-face {
+	font-family: 'OpenSans-Semibold';
+	src: url('../fonts/open_sans_semibold.eot'); /* IE 9 Compatibility Mode */
+	src: url('../fonts/open_sans_semibold.eot?#iefix') format('embedded-opentype'), /* IE < 9 */
+		url('../fonts/open_sans_semibold.woff2') format('woff2'), /* Super Modern Browsers */
+		url('../fonts/open_sans_semibold.woff') format('woff'), /* Firefox >= 3.6, any other modern browser */
+		url('../fonts/open_sans_semibold.ttf') format('truetype'), /* Safari, Android, iOS */
+		url('../fonts/open_sans_semibold.svg#open_sans_semibold') format('svg'); /* Chrome < 4, Legacy iOS */
+}
