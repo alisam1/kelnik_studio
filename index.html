@@ -1,0 +1,648 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0, user-scalable=0, minimum-scale=1.0, maximum-scale=1.0">
+    <title>Kelnik Studio</title>
+    <link href="css/style.css" rel="stylesheet">
+  </head>
+  <body>
+
+    <header class="page-header container">
+
+      <div class="page-header__main">
+        <div class="page-header__logo">
+          <img src="img/logo.svg" alt="Logo">
+        </div>
+        <nav class="page-header__menu">
+          <ul class="page-header__list">
+            <li class="page-header__item"><a href="#">Объекты</a></li>
+            <li class="page-header__item"><a href="#">Компания</a></li>
+            <li class="page-header__item"><a href="#">Как купить</a></li>
+            <li class="page-header__item"><a href="#">Агентам</a></li>
+            <li class="page-header__item"><a href="#">Регионы</a></li>
+            <li class="page-header__item"><a href="#">Акции</a></li>
+            <li class="page-header__item"><a href="#">Контакты</a></li>
+          </ul>
+        </nav>
+
+        <div class="page-header__info">
+          <div class="page-header__phone">8 888 88 88 98</div>
+          <div class="page-header__description">Звони скорее!</div>
+        </div>
+      </div>
+
+    </header>
+
+    <header class="page_header__mobile container">
+
+      <nav class="mobile_menu">
+        <input class="nav__check" type="checkbox" id="showmenu">
+         <label class="nav__showmenu" for="showmenu"><img src="img/menu_burger.png" alt="Мобильное меню"></label>
+         <label class="nav__back" for="showmenu"></label>
+         <ul class="menu">
+           <li><a class="menu__item" href="#">Объекты</a></li>
+           <li><a class="menu__item" href="#">Компания</a></li>
+           <li><a class="menu__item" href="#">Как купить</a></li>
+           <li><a class="menu__item" href="#">Агентам</a></li>
+           <li><a class="menu__item" href="#">Регионы</a></li>
+           <li><a class="menu__item" href="#">Акции</a></li>
+           <li><a class="menu__item" href="#">Контакты</a></li>
+         </ul>
+      </nav>
+
+      <div class="mobile_logo"><img src="img/logo.svg" alt="Лого"></div>
+    </header>
+
+    <main class="main container">
+
+      <section class="main__content">
+
+          <h1 class="main__title">Найдено 666 квартир</h1>
+          <div class="main__section" id="card__container">
+
+           <div class="main__sort">
+              <p class="sort__title">Сортировать по:</p>
+              <div class="button-group">
+                <button class="sort__room"><a href="#">По цене</a></button>
+                <button class="sort__price"><a href="#">По комнатам</a></button>
+              </div>
+           </div>
+
+           <div class="main__choise">
+             <div class="main__card">
+               <div class="card__promo">
+                 <p class="card__discount card__discount--none"></p>
+                 <p class="card__shock card__shock--none"></p>
+                 <p class="card__book card__book--gold"></p>
+               </div>
+               <div class="card__img"><img src="img/card_1.svg" alt=""></div>
+               <h3 class="card__title">Студия №44</h3>
+               <div class="card__info">
+                 <p class="card__repair">без <span>отделки</span></p>
+                 <p class="card__square">28 м<sup>2</sup> <span>площадь</span></p>
+                 <p class="card__stage">12/14 <span>этаж</span></p>
+               </div>
+               <div class="card__price">1 900 000 руб.</div>
+               <button class="card__button">Забронировано</button>
+             </div>
+             <div class="main__card main__card--free">
+               <div class="card__promo">
+                 <p class="card__discount card__discount--none"></p>
+                 <p class="card__shock card__shock--none"></p>
+                 <p class="card__book"></p>
+               </div>
+              <div class="card__img"><img src="img/card_2.svg" alt=""></div>
+               <h3 class="card__title">Однокомнатная №666</h3>
+               <div class="card__info">
+                 <p class="card__repair">базовая <span>отделка</span></p>
+                 <p class="card__square">66 м<sup>2</sup> <span>площадь</span></p>
+                 <p class="card__stage">6/6 <span>этаж</span></p>
+               </div>
+               <div class="card__price">1 666 666 руб.</div>
+              <button class="card__button card__button--free">Свободно</button>
+           </div>
+               <div class="main__card main__card--sale">
+                 <div class="card__promo">
+                   <p class="card__discount card__discount--none"></p>
+                   <p class="card__shock card__shock--none"></p>
+                   <p class="card__book card__book--gold"></p>
+                 </div>
+                 <div class="card__img"><img src="img/card_3.svg" alt=""></div>
+                 <h3 class="card__title">Двухкомнатная №567</h3>
+                 <div class="card__info">
+                   <p class="card__repair">чернвая <span>отделка</span></p>
+                   <p class="card__square">65.6 м<sup>2</sup> <span>площадь</span></p>
+                   <p class="card__stage">7/14 <span>этаж</span></p>
+                 </div>
+                 <div class="card__price">5 900 000 руб.</div>
+                <button class="card__button card__button--sale">Продано</button>
+             </div>
+             <div class="main__card">
+               <div class="card__promo">
+                 <p class="card__discount card__discount--none"></p>
+                 <p class="card__shock card__shock--none"></p>
+                 <p class="card__book"></p>
+               </div>
+                <div class="card__img"><img src="img/card_4.svg" alt=""></div>
+               <h3 class="card__title">Трехкомнатная №45</h3>
+               <div class="card__info">
+                 <p class="card__repair">без <span>отделки</span></p>
+                 <p class="card__square">56 м<sup>2</sup> <span>площадь</span></p>
+                 <p class="card__stage">1/14 <span>этаж</span></p>
+               </div>
+               <div class="card__price">12 900 000 руб.</div>
+              <button class="card__button">Забронировано</button>
+           </div>
+           <div class="main__card">
+             <div class="card__promo">
+               <p class="card__discount">-17%</p>
+               <p class="card__shock">Шок цена!</p>
+               <p class="card__book card__book--gold"></p>
+             </div>
+             <div class="card__img"><img src="img/card_5.svg" alt=""></div>
+             <h3 class="card__title">Студия  №25</h3>
+             <div class="card__info">
+               <p class="card__repair">черновая <span>отделка</span></p>
+               <p class="card__square">18 м<sup>2</sup> <span>площадь</span></p>
+               <p class="card__stage">12/14 <span>этаж</span></p>
+             </div>
+             <div class="card__price">1 900 000 руб.</div>
+            <button class="card__button">Забронировано</button>
+           </div>
+           <div class="main__card">
+             <div class="card__promo">
+               <p class="card__discount">-6%</p>
+               <p class="card__shock card__shock--none"></p>
+               <p class="card__book"></p>
+             </div>
+             <div class="card__img"><img src="img/card_6.svg" alt=""></div>
+             <h3 class="card__title">Четырехкомнатная  №259</h3>
+             <div class="card__info">
+               <p class="card__repair">черновая <span>отделка</span></p>
+               <p class="card__square">98 м<sup>2</sup> <span>площадь</span></p>
+               <p class="card__stage">14/14 <span>этаж</span></p>
+             </div>
+             <div class="card__price">23 900 000 руб.</div>
+            <button class="card__button">Забронировано</button>
+          </div>
+          <div class="main__card main__card--free">
+            <div class="card__promo">
+              <p class="card__discount card__discount--none"></p>
+              <p class="card__shock card__shock--none"></p>
+              <p class="card__book"></p>
+            </div>
+            <div class="card__img"><img src="img/card_7.svg" alt=""></div>
+            <h3 class="card__title">Однокомнатная №56</h3>
+            <div class="card__info">
+              <p class="card__repair">без <span>отделки</span></p>
+              <p class="card__square">36 м<sup>2</sup> <span>площадь</span></p>
+              <p class="card__stage">3/6 <span>этаж</span></p>
+            </div>
+            <div class="card__price">5 666 000 руб.</div>
+           <button class="card__button card__button--free">Свободно</button>
+         </div>
+         <div class="main__card main__card--free">
+           <div class="card__promo">
+             <p class="card__discount card__discount--none"></p>
+             <p class="card__shock card__shock--none"></p>
+             <p class="card__book"></p>
+           </div>
+           <div class="card__img"><img src="img/card_8.svg" alt=""></div>
+           <h3 class="card__title">Трехкомнтаная №46</h3>
+           <div class="card__info">
+             <p class="card__repair">черновая <span>отделка</span></p>
+             <p class="card__square">86 м<sup>2</sup> <span>площадь</span></p>
+             <p class="card__stage">1/6 <span>этаж</span></p>
+           </div>
+           <div class="card__price">5 696 664 руб.</div>
+          <button class="card__button card__button--free">Свободно</button>
+         </div>
+         <div class="main__card">
+           <div class="card__promo">
+             <p class="card__discount">-9%</p>
+             <p class="card__shock">Шок цена!</p>
+             <p class="card__book"></p>
+           </div>
+           <div class="card__img"><img src="img/card_9.svg" alt=""></div>
+           <h3 class="card__title">Однокомнатная №2</h3>
+           <div class="card__info">
+             <p class="card__repair">черновая <span>отделка</span></p>
+             <p class="card__square">18 м<sup>2</sup> <span>площадь</span></p>
+             <p class="card__stage">3/14 <span>этаж</span></p>
+           </div>
+           <div class="card__price">1 200 000 руб.</div>
+          <button class="card__button">Забронировано</button>
+        </div>
+        <div class="main__card">
+          <div class="card__promo">
+            <p class="card__discount">-6%</p>
+            <p class="card__shock card__shock--none"></p>
+            <p class="card__book"></p>
+          </div>
+          <div class="card__img"><img src="img/card_10.svg" alt=""></div>
+          <h3 class="card__title">Студия №12</h3>
+          <div class="card__info">
+            <p class="card__repair">черновая <span>отделка</span></p>
+            <p class="card__square">38 м<sup>2</sup> <span>площадь</span></p>
+            <p class="card__stage">6/14 <span>этаж</span></p>
+          </div>
+          <div class="card__price">1 500 500 руб.</div>
+         <button class="card__button">Забронировано</button>
+       </div>
+       <div class="main__card">
+         <div class="card__promo">
+           <p class="card__discount card__discount--none"></p>
+           <p class="card__shock card__shock--none"></p>
+           <p class="card__book"></p>
+         </div>
+         <div class="card__img"><img src="img/card_11.svg" alt=""></div>
+         <h3 class="card__title">Однокомнатная №8</h3>
+         <div class="card__info">
+           <p class="card__repair">черновая <span>отделка</span></p>
+           <p class="card__square">48 м<sup>2</sup> <span>площадь</span></p>
+           <p class="card__stage">3/14 <span>этаж</span></p>
+         </div>
+         <div class="card__price">6 200 000 руб.</div>
+        <button class="card__button">Забронировано</button>
+       </div>
+       <div class="main__card">
+         <div class="card__promo">
+           <p class="card__discount">-6%</p>
+           <p class="card__shock card__shock--none"></p>
+           <p class="card__book"></p>
+         </div>
+         <div class="card__img"><img src="img/card_12.svg" alt=""></div>
+         <h3 class="card__title">Двухкомнатная №23</h3>
+         <div class="card__info">
+           <p class="card__repair">базовая <span>отделка</span></p>
+           <p class="card__square">48 м<sup>2</sup> <span>площадь</span></p>
+           <p class="card__stage">3/14 <span>этаж</span></p>
+         </div>
+         <div class="card__price">5 255 006 руб.</div>
+        <button class="card__button">Забронировано</button>
+      </div>
+
+
+
+                    <div class="main__card">
+                      <div class="card__promo">
+                        <p class="card__discount card__discount--none"></p>
+                        <p class="card__shock card__shock--none"></p>
+                        <p class="card__book card__book--gold"></p>
+                      </div>
+                      <div class="card__img"><img src="img/card_1.svg" alt=""></div>
+                      <h3 class="card__title">Студия №44</h3>
+                      <div class="card__info">
+                        <p class="card__repair">без <span>отделки</span></p>
+                        <p class="card__square">28 м<sup>2</sup> <span>площадь</span></p>
+                        <p class="card__stage">12/14 <span>этаж</span></p>
+                      </div>
+                      <div class="card__price">1 900 000 руб.</div>
+                      <button class="card__button">Забронировано</button>
+                    </div>
+                    <div class="main__card main__card--free">
+                      <div class="card__promo">
+                        <p class="card__discount card__discount--none"></p>
+                        <p class="card__shock card__shock--none"></p>
+                        <p class="card__book"></p>
+                      </div>
+                     <div class="card__img"><img src="img/card_2.svg" alt=""></div>
+                      <h3 class="card__title">Однокомнатная №666</h3>
+                      <div class="card__info">
+                        <p class="card__repair">базовая <span>отделка</span></p>
+                        <p class="card__square">66 м<sup>2</sup> <span>площадь</span></p>
+                        <p class="card__stage">6/6 <span>этаж</span></p>
+                      </div>
+                      <div class="card__price">1 666 666 руб.</div>
+                     <button class="card__button card__button--free">Свободно</button>
+                  </div>
+                      <div class="main__card main__card--sale">
+                        <div class="card__promo">
+                          <p class="card__discount card__discount--none"></p>
+                          <p class="card__shock card__shock--none"></p>
+                          <p class="card__book card__book--gold"></p>
+                        </div>
+                        <div class="card__img"><img src="img/card_3.svg" alt=""></div>
+                        <h3 class="card__title">Двухкомнатная №567</h3>
+                        <div class="card__info">
+                          <p class="card__repair">чернвая <span>отделка</span></p>
+                          <p class="card__square">65.6 м<sup>2</sup> <span>площадь</span></p>
+                          <p class="card__stage">7/14 <span>этаж</span></p>
+                        </div>
+                        <div class="card__price">5 900 000 руб.</div>
+                       <button class="card__button card__button--sale">Продано</button>
+                    </div>
+                    <div class="main__card">
+                      <div class="card__promo">
+                        <p class="card__discount card__discount--none"></p>
+                        <p class="card__shock card__shock--none"></p>
+                        <p class="card__book"></p>
+                      </div>
+                       <div class="card__img"><img src="img/card_4.svg" alt=""></div>
+                      <h3 class="card__title">Трехкомнатная №45</h3>
+                      <div class="card__info">
+                        <p class="card__repair">без <span>отделки</span></p>
+                        <p class="card__square">56 м<sup>2</sup> <span>площадь</span></p>
+                        <p class="card__stage">1/14 <span>этаж</span></p>
+                      </div>
+                      <div class="card__price">12 900 000 руб.</div>
+                     <button class="card__button">Забронировано</button>
+                  </div>
+                  <div class="main__card">
+                    <div class="card__promo">
+                      <p class="card__discount">-17%</p>
+                      <p class="card__shock">Шок цена!</p>
+                      <p class="card__book card__book--gold"></p>
+                    </div>
+                    <div class="card__img"><img src="img/card_5.svg" alt=""></div>
+                    <h3 class="card__title">Студия  №25</h3>
+                    <div class="card__info">
+                      <p class="card__repair">черновая <span>отделка</span></p>
+                      <p class="card__square">18 м<sup>2</sup> <span>площадь</span></p>
+                      <p class="card__stage">12/14 <span>этаж</span></p>
+                    </div>
+                    <div class="card__price">1 900 000 руб.</div>
+                   <button class="card__button">Забронировано</button>
+                  </div>
+                  <div class="main__card">
+                    <div class="card__promo">
+                      <p class="card__discount">-6%</p>
+                      <p class="card__shock card__shock--none"></p>
+                      <p class="card__book"></p>
+                    </div>
+                    <div class="card__img"><img src="img/card_6.svg" alt=""></div>
+                    <h3 class="card__title">Четырехкомнатная  №259</h3>
+                    <div class="card__info">
+                      <p class="card__repair">черновая <span>отделка</span></p>
+                      <p class="card__square">98 м<sup>2</sup> <span>площадь</span></p>
+                      <p class="card__stage">14/14 <span>этаж</span></p>
+                    </div>
+                    <div class="card__price">23 900 000 руб.</div>
+                   <button class="card__button">Забронировано</button>
+                 </div>
+                 <div class="main__card main__card--free">
+                   <div class="card__promo">
+                     <p class="card__discount card__discount--none"></p>
+                     <p class="card__shock card__shock--none"></p>
+                     <p class="card__book"></p>
+                   </div>
+                   <div class="card__img"><img src="img/card_7.svg" alt=""></div>
+                   <h3 class="card__title">Однокомнатная №56</h3>
+                   <div class="card__info">
+                     <p class="card__repair">без <span>отделки</span></p>
+                     <p class="card__square">36 м<sup>2</sup> <span>площадь</span></p>
+                     <p class="card__stage">3/6 <span>этаж</span></p>
+                   </div>
+                   <div class="card__price">5 666 000 руб.</div>
+                  <button class="card__button card__button--free">Свободно</button>
+                </div>
+                <div class="main__card main__card--free">
+                  <div class="card__promo">
+                    <p class="card__discount card__discount--none"></p>
+                    <p class="card__shock card__shock--none"></p>
+                    <p class="card__book"></p>
+                  </div>
+                  <div class="card__img"><img src="img/card_8.svg" alt=""></div>
+                  <h3 class="card__title">Трехкомнтаная №46</h3>
+                  <div class="card__info">
+                    <p class="card__repair">черновая <span>отделка</span></p>
+                    <p class="card__square">86 м<sup>2</sup> <span>площадь</span></p>
+                    <p class="card__stage">1/6 <span>этаж</span></p>
+                  </div>
+                  <div class="card__price">5 696 664 руб.</div>
+                 <button class="card__button card__button--free">Свободно</button>
+                </div>
+                <div class="main__card">
+                  <div class="card__promo">
+                    <p class="card__discount">-9%</p>
+                    <p class="card__shock">Шок цена!</p>
+                    <p class="card__book"></p>
+                  </div>
+                  <div class="card__img"><img src="img/card_9.svg" alt=""></div>
+                  <h3 class="card__title">Однокомнатная №2</h3>
+                  <div class="card__info">
+                    <p class="card__repair">черновая <span>отделка</span></p>
+                    <p class="card__square">18 м<sup>2</sup> <span>площадь</span></p>
+                    <p class="card__stage">3/14 <span>этаж</span></p>
+                  </div>
+                  <div class="card__price">1 200 000 руб.</div>
+                 <button class="card__button">Забронировано</button>
+                </div>
+                <div class="main__card">
+                 <div class="card__promo">
+                   <p class="card__discount">-6%</p>
+                   <p class="card__shock card__shock--none"></p>
+                   <p class="card__book"></p>
+                 </div>
+                 <div class="card__img"><img src="img/card_10.svg" alt=""></div>
+                 <h3 class="card__title">Студия №12</h3>
+                 <div class="card__info">
+                   <p class="card__repair">черновая <span>отделка</span></p>
+                   <p class="card__square">38 м<sup>2</sup> <span>площадь</span></p>
+                   <p class="card__stage">6/14 <span>этаж</span></p>
+                 </div>
+                 <div class="card__price">1 500 500 руб.</div>
+                <button class="card__button">Забронировано</button>
+                </div>
+                <div class="main__card">
+                <div class="card__promo">
+                  <p class="card__discount card__discount--none"></p>
+                  <p class="card__shock card__shock--none"></p>
+                  <p class="card__book"></p>
+                </div>
+                <div class="card__img"><img src="img/card_11.svg" alt=""></div>
+                <h3 class="card__title">Однокомнатная №8</h3>
+                <div class="card__info">
+                  <p class="card__repair">черновая <span>отделка</span></p>
+                  <p class="card__square">48 м<sup>2</sup> <span>площадь</span></p>
+                  <p class="card__stage">3/14 <span>этаж</span></p>
+                </div>
+                <div class="card__price">6 200 000 руб.</div>
+                <button class="card__button">Забронировано</button>
+                </div>
+                <div class="main__card">
+                <div class="card__promo">
+                  <p class="card__discount">-6%</p>
+                  <p class="card__shock card__shock--none"></p>
+                  <p class="card__book"></p>
+                </div>
+                <div class="card__img"><img src="img/card_12.svg" alt=""></div>
+                <h3 class="card__title">Двухкомнатная №23</h3>
+                <div class="card__info">
+                  <p class="card__repair">базовая <span>отделка</span></p>
+                  <p class="card__square">48 м<sup>2</sup> <span>площадь</span></p>
+                  <p class="card__stage">3/14 <span>этаж</span></p>
+                </div>
+                <div class="card__price">5 255 006 руб.</div>
+                <button class="card__button">Забронировано</button>
+                </div>
+                <div class="main__card">
+                  <div class="card__promo">
+                    <p class="card__discount card__discount--none"></p>
+                    <p class="card__shock card__shock--none"></p>
+                    <p class="card__book card__book--gold"></p>
+                  </div>
+                  <div class="card__img"><img src="img/card_1.svg" alt=""></div>
+                  <h3 class="card__title">Студия №44</h3>
+                  <div class="card__info">
+                    <p class="card__repair">без <span>отделки</span></p>
+                    <p class="card__square">28 м<sup>2</sup> <span>площадь</span></p>
+                    <p class="card__stage">12/14 <span>этаж</span></p>
+                  </div>
+                  <div class="card__price">1 900 000 руб.</div>
+                  <button class="card__button">Забронировано</button>
+                </div>
+                <div class="main__card main__card--free">
+                  <div class="card__promo">
+                    <p class="card__discount card__discount--none"></p>
+                    <p class="card__shock card__shock--none"></p>
+                    <p class="card__book"></p>
+                  </div>
+                 <div class="card__img"><img src="img/card_2.svg" alt=""></div>
+                  <h3 class="card__title">Однокомнатная №666</h3>
+                  <div class="card__info">
+                    <p class="card__repair">базовая <span>отделка</span></p>
+                    <p class="card__square">66 м<sup>2</sup> <span>площадь</span></p>
+                    <p class="card__stage">6/6 <span>этаж</span></p>
+                  </div>
+                  <div class="card__price">1 666 666 руб.</div>
+                 <button class="card__button card__button--free">Свободно</button>
+              </div>
+                  <div class="main__card main__card--sale">
+                    <div class="card__promo">
+                      <p class="card__discount card__discount--none"></p>
+                      <p class="card__shock card__shock--none"></p>
+                      <p class="card__book card__book--gold"></p>
+                    </div>
+                    <div class="card__img"><img src="img/card_3.svg" alt=""></div>
+                    <h3 class="card__title">Двухкомнатная №567</h3>
+                    <div class="card__info">
+                      <p class="card__repair">чернвая <span>отделка</span></p>
+                      <p class="card__square">65.6 м<sup>2</sup> <span>площадь</span></p>
+                      <p class="card__stage">7/14 <span>этаж</span></p>
+                    </div>
+                    <div class="card__price">5 900 000 руб.</div>
+                   <button class="card__button card__button--sale">Продано</button>
+                </div>
+                <div class="main__card">
+                  <div class="card__promo">
+                    <p class="card__discount card__discount--none"></p>
+                    <p class="card__shock card__shock--none"></p>
+                    <p class="card__book"></p>
+                  </div>
+                   <div class="card__img"><img src="img/card_4.svg" alt=""></div>
+                  <h3 class="card__title">Трехкомнатная №45</h3>
+                  <div class="card__info">
+                    <p class="card__repair">без <span>отделки</span></p>
+                    <p class="card__square">56 м<sup>2</sup> <span>площадь</span></p>
+                    <p class="card__stage">1/14 <span>этаж</span></p>
+                  </div>
+                  <div class="card__price">12 900 000 руб.</div>
+                 <button class="card__button">Забронировано</button>
+              </div>
+              <div class="main__card">
+                <div class="card__promo">
+                  <p class="card__discount">-17%</p>
+                  <p class="card__shock">Шок цена!</p>
+                  <p class="card__book card__book--gold"></p>
+                </div>
+                <div class="card__img"><img src="img/card_5.svg" alt=""></div>
+                <h3 class="card__title">Студия  №25</h3>
+                <div class="card__info">
+                  <p class="card__repair">черновая <span>отделка</span></p>
+                  <p class="card__square">18 м<sup>2</sup> <span>площадь</span></p>
+                  <p class="card__stage">12/14 <span>этаж</span></p>
+                </div>
+                <div class="card__price">1 900 000 руб.</div>
+               <button class="card__button">Забронировано</button>
+              </div>
+              <div class="main__card">
+                <div class="card__promo">
+                  <p class="card__discount">-6%</p>
+                  <p class="card__shock card__shock--none"></p>
+                  <p class="card__book"></p>
+                </div>
+                <div class="card__img"><img src="img/card_6.svg" alt=""></div>
+                <h3 class="card__title">Четырехкомнатная  №259</h3>
+                <div class="card__info">
+                  <p class="card__repair">черновая <span>отделка</span></p>
+                  <p class="card__square">98 м<sup>2</sup> <span>площадь</span></p>
+                  <p class="card__stage">14/14 <span>этаж</span></p>
+                </div>
+                <div class="card__price">23 900 000 руб.</div>
+               <button class="card__button">Забронировано</button>
+              </div>
+              <div class="main__card main__card--free">
+               <div class="card__promo">
+                 <p class="card__discount card__discount--none"></p>
+                 <p class="card__shock card__shock--none"></p>
+                 <p class="card__book"></p>
+               </div>
+               <div class="card__img"><img src="img/card_7.svg" alt=""></div>
+               <h3 class="card__title">Однокомнатная №56</h3>
+               <div class="card__info">
+                 <p class="card__repair">без <span>отделки</span></p>
+                 <p class="card__square">36 м<sup>2</sup> <span>площадь</span></p>
+                 <p class="card__stage">3/6 <span>этаж</span></p>
+               </div>
+               <div class="card__price">5 666 000 руб.</div>
+              <button class="card__button card__button--free">Свободно</button>
+              </div>
+              <div class="main__card main__card--free">
+              <div class="card__promo">
+                <p class="card__discount card__discount--none"></p>
+                <p class="card__shock card__shock--none"></p>
+                <p class="card__book"></p>
+              </div>
+              <div class="card__img"><img src="img/card_8.svg" alt=""></div>
+              <h3 class="card__title">Трехкомнтаная №46</h3>
+              <div class="card__info">
+                <p class="card__repair">черновая <span>отделка</span></p>
+                <p class="card__square">86 м<sup>2</sup> <span>площадь</span></p>
+                <p class="card__stage">1/6 <span>этаж</span></p>
+              </div>
+              <div class="card__price">5 696 664 руб.</div>
+              <button class="card__button card__button--free">Свободно</button>
+              </div>
+              <div class="main__card main__card--free">
+              <div class="card__promo">
+                <p class="card__discount card__discount--none"></p>
+                <p class="card__shock card__shock--none"></p>
+                <p class="card__book"></p>
+              </div>
+              <div class="card__img"><img src="img/card_8.svg" alt=""></div>
+              <h3 class="card__title">Трехкомнтаная №46</h3>
+              <div class="card__info">
+                <p class="card__repair">черновая <span>отделка</span></p>
+                <p class="card__square">86 м<sup>2</sup> <span>площадь</span></p>
+                <p class="card__stage">1/6 <span>этаж</span></p>
+              </div>
+              <div class="card__price">5 696 664 руб.</div>
+              <button class="card__button card__button--free">Свободно</button>
+              </div>
+            <button id="loadMore" class="main__button"><a href="#">Показать еще 20</a></button>
+            <p id="top_button" class="totop">
+            <a href="#top"><img src="img/button_up.svg" alt=""></a>
+            </p>
+        </div>
+        </div>
+
+      <div class="sale__form">
+        <div class="form__info">
+          <p class="form__title">Успей купить!</p>
+          <p class="form__description">Подпишись и успей словить все акции</p>
+        </div>
+
+        <div class="form__registration">
+          <form name="form__registration" id="registration" method="get" action="#">
+            <div class="form__input">
+            <input name="login" type="email" size="25" maxlength="30" value="E-mail" required="">
+            <label><input type="checkbox" name="carcheck" value="yes"><div class="stlchek"></div>Подписаться на новости</label>
+            </div>
+            <div class="form__submit">
+            <input type="submit" name="enter" value="Подписаться">
+            </div>
+            </form>
+        </div>
+
+      </div>
+
+
+      </section>
+
+    </main>
+
+    <footer class="page-footer">
+
+    </footer>
+
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  <script src="//cdnjs.cloudflare.com/ajax/libs/list.js/1.5.0/list.min.js"></script>
+  <script src="js/loadmore.js"></script>
+  <script src="js/formvalidation.js"></script>
+  <script src="js/sortelements.js"></script>
+  </body>
+  </html>
