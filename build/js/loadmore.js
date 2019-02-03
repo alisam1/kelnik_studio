@@ -21,8 +21,15 @@ $('a[href="#top"]').click(function () {
 
 $(window).scroll(function () {
     if ($(this).scrollTop() > 50) {
-        $('.totop a').fadeIn();
+        $('#top_button a').fadeIn();
     } else {
-        $('.totop a').fadeOut();
+        $('#top_button a').fadeOut();
     }
 });
+
+var main__card = jQuery(".main__card")
+$('.sort__button').click(function(){
+                main__card.sortElements(function(a, b){
+                    return $(a).text() > $(b).text() ? 1 : -1;
+                });
+            });

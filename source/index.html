@@ -35,17 +35,39 @@
 
     </header>
 
+    <header class="page_header__mobile container">
+
+      <nav class="mobile_menu">
+        <input class="nav__check" type="checkbox" id="showmenu"/>
+         <label class="nav__showmenu" for="showmenu"><img src="img/menu_burger.png" alt="Мобильное меню"></label>
+         <label class="nav__back" for="showmenu"></label>
+         <ul class="menu">
+           <li><a class="menu__item" href="#">Объекты</a></li>
+           <li><a class="menu__item" href="#">Компания</a></li>
+           <li><a class="menu__item" href="#">Как купить</a></li>
+           <li><a class="menu__item" href="#">Агентам</a></li>
+           <li><a class="menu__item" href="#">Регионы</a></li>
+           <li><a class="menu__item" href="#">Акции</a></li>
+           <li><a class="menu__item" href="#">Контакты</a></li>
+         </ul>
+      </nav>
+
+      <div class="mobile_logo"><img src="img/logo.svg" alt="Лого"></div>
+    </header>
+
     <main class="main container">
 
       <section class="main__content">
 
           <h1 class="main__title">Найдено 666 квартир</h1>
-          <div class="main__section">
+          <div class="main__section" id = "card__container" >
 
            <div class="main__sort">
               <p class="sort__title">Сортировать по:</p>
-              <p class="sort__price">Цене</p>
-              <p class="sort__room">Комнатам</p>
+              <div class="button-group">
+                <button class="sort__room"><a href="#">По цене</a></button>
+                <button class="sort__price"><a href="#">По комнатам</a></button>
+              </div>
            </div>
 
            <div class="main__choise">
@@ -580,10 +602,10 @@
               <div class="card__price">5 696 664 руб.</div>
               <button class="card__button card__button--free">Свободно</button>
               </div>
-      <button id="loadMore" class="main__button"><a href="#">Показать еще 20</a></button>
-      <p class="totop">
-      <a href="#top"><img src="img/button_up.svg" alt=""></a>
-      </p>
+            <button id="loadMore" class="main__button"><a href="#">Показать еще 20</a></button>
+            <p id = "top_button" class="totop">
+            <a href="#top"><img src="img/button_up.svg" alt=""></a>
+            </p>
         </div>
         </div>
 
@@ -594,9 +616,9 @@
         </div>
 
         <div class="form__registration">
-          <form name="f1" method="get" action="enter_data.php">
+          <form name="form__registration" id="registration" method="get" action="#">
             <div class="form__input">
-            <input name="login" type="text" size="25" maxlength="30" value="E-mail" />
+            <input name="login" type="email" size="25" maxlength="30" value="E-mail" required/>
             <label><input type="checkbox" name="carcheck" value="yes"><div class="stlchek"></div>Подписаться на новости</label>
             </div>
             <div class="form__submit">
@@ -618,6 +640,9 @@
 
 
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  <script src="//cdnjs.cloudflare.com/ajax/libs/list.js/1.5.0/list.min.js"></script>
   <script src="js/loadmore.js"></script>
+  <script src="js/formvalidation.js"></script>
+  <script src="js/sortelements.js"></script>
   </body>
   </html>

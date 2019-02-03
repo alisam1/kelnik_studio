@@ -8,6 +8,12 @@
   justify-content: space-around;
 }
 
+.main__choise:after {
+  content: '';
+  display: block;
+  clear: both;
+}
+
 .main__card
 {
   display:none;
@@ -187,4 +193,51 @@
   {
     background-color: #a1a1a1;
   }
+}
+
+#top_button
+{
+  width: 80px;
+  height: 80px;
+  position: fixed;
+  right: 120px;
+  bottom: 520px;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1279px) {
+
+
+  .main__choise
+  {
+    width: 700px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+
+
+}
+
+@media screen and (min-width: 320px) and (max-width: 767px) {
+
+  .main__choise
+  {
+    width: 300px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+
+  #top_button {
+    width: 40px;
+    height: 40px;
+    position: fixed;
+    right: 50px;
+    bottom: 520px;
+}
+
 }
