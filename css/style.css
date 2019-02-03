@@ -580,7 +580,16 @@ template {
   border-radius: 4px;
   background-color: #046380;
   margin-left: 180px;
-  margin-bottom: 70px; }
+  margin-bottom: 70px;
+  cursor: pointer; }
+
+.main__button:hover {
+  background-color: #002f2f;
+  cursor: pointer; }
+
+.main__button:active {
+  background-color: #000;
+  cursor: pointer; }
 
 .main__button a {
   text-decoration: none;
