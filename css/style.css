@@ -563,7 +563,7 @@ template {
     color: #002f2f;
     padding-top: 30px;
     padding-bottom: 30px;
-    padding-left: 30px;
+    padding-left: 0px;
     text-align: center; } }
 
 .main__content {
