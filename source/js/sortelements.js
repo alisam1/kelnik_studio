@@ -1,6 +1,6 @@
 $(".sort__room").click(function () {
     var mylist = $('.main__choise');
-    var listitems = mylist.children('.card__title').get();
+    var listitems = mylist.children('.main__card > .card__title').get();
     listitems.sort(function(a, b) {
        var compA = $(a).text().toUpperCase();
        var compB = $(b).text().toUpperCase();
