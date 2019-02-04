@@ -1,5 +1,5 @@
 $('.sort__room').click(function(){
-    var $elements = $('.main__card');
+    var $elements = $('.card__title');
     var $target = $('.main__choise');
 
     $elements.sort(function (a, b) {
