@@ -1,17 +1,10 @@
-$('.sort__room').click(function(){
-    var $elements = $('.card__title');
-    var $target = $('.main__choise');
-
-    $elements.sort(function (a, b) {
-        var an = $(a).text(),
-            bn = $(b).text();
-
-        if (an && bn) {
-            return an.toUpperCase().localeCompare(bn.toUpperCase());
-        }
-
-        return 0;
-    });
-
-    $elements.detach().appendTo($target);
+$(".sort__room").click(function () {
+    var mylist = $('.main__choise');
+    var listitems = mylist.children('.card__title').get();
+    listitems.sort(function(a, b) {
+       var compA = $(a).text().toUpperCase();
+       var compB = $(b).text().toUpperCase();
+       return (compA < compB) ? -1 : (compA > compB) ? 1 : 0;
+    })
+    $.each(listitems, function(idx, itm) { mylist.append(itm); });
 });
