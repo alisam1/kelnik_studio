@@ -4,6 +4,7 @@
   "private": true,
   "description": "KelnikStudio",
   "devDependencies": {
+    "accounting": "^0.4.1",
     "autoprefixer": "8.3.x",
     "browser-sync": "^2.24.4",
     "gulp": "3.9.x",
