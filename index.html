@@ -64,13 +64,13 @@
            <div class="main__sort">
               <p class="sort__title">Сортировать по:</p>
               <div class="button-group">
-                <button class="sort__price"><a href="#">По цене</a></button>
+                <button class="sort__price" onclick="sort()"><a href="#">По цене</a></button>
                 <button class="sort__room"><a href="#">По комнатам</a></button>
               </div>
            </div>
 
            <div class="main__choise">
-             <div class="main__card">
+             <div class="main__card card__sort">
                <div class="card__promo">
                  <p class="card__discount card__discount--none"></p>
                  <p class="card__shock card__shock--none"></p>
@@ -83,10 +83,10 @@
                  <p class="card__square">28 м<sup>2</sup> <span>площадь</span></p>
                  <p class="card__stage">12/14 <span>этаж</span></p>
                </div>
-               <div class="card__price">1 900 000 руб.</div>
+               <div class="card__price"><span class="price__number">1 900 000</span> руб.</div>
                <button class="card__button">Забронировано</button>
              </div>
-             <div class="main__card main__card--free">
+             <div class="main__card main__card--free card__sort">
                <div class="card__promo">
                  <p class="card__discount card__discount--none"></p>
                  <p class="card__shock card__shock--none"></p>
@@ -99,10 +99,10 @@
                  <p class="card__square">66 м<sup>2</sup> <span>площадь</span></p>
                  <p class="card__stage">6/6 <span>этаж</span></p>
                </div>
-               <div class="card__price">1 666 666 руб.</div>
+               <div class="card__price"><span class="price__number">1 666 666</span> руб.</div>
               <button class="card__button card__button--free">Свободно</button>
            </div>
-               <div class="main__card main__card--sale">
+               <div class="main__card main__card--sale card__sort">
                  <div class="card__promo">
                    <p class="card__discount card__discount--none"></p>
                    <p class="card__shock card__shock--none"></p>
@@ -115,10 +115,10 @@
                    <p class="card__square">65.6 м<sup>2</sup> <span>площадь</span></p>
                    <p class="card__stage">7/14 <span>этаж</span></p>
                  </div>
-                 <div class="card__price">5 900 000 руб.</div>
+                 <div class="card__price"><span class="price__number">5 900 000</span> руб.</div>
                 <button class="card__button card__button--sale">Продано</button>
              </div>
-             <div class="main__card">
+             <div class="main__card card__sort">
                <div class="card__promo">
                  <p class="card__discount card__discount--none"></p>
                  <p class="card__shock card__shock--none"></p>
@@ -131,10 +131,10 @@
                  <p class="card__square">56 м<sup>2</sup> <span>площадь</span></p>
                  <p class="card__stage">1/14 <span>этаж</span></p>
                </div>
-               <div class="card__price">12 900 000 руб.</div>
+               <div class="card__price"><span class="price__number">12900000</span> руб.</div>
               <button class="card__button">Забронировано</button>
            </div>
-           <div class="main__card">
+           <div class="main__card card__sort">
              <div class="card__promo">
                <p class="card__discount">-17%</p>
                <p class="card__shock">Шок цена!</p>
@@ -147,10 +147,10 @@
                <p class="card__square">18 м<sup>2</sup> <span>площадь</span></p>
                <p class="card__stage">12/14 <span>этаж</span></p>
              </div>
-             <div class="card__price">1 900 000 руб.</div>
+             <div class="card__price"><span class="price__number">1900000</span> руб.</div>
             <button class="card__button">Забронировано</button>
            </div>
-           <div class="main__card">
+           <div class="main__card card__sort">
              <div class="card__promo">
                <p class="card__discount">-6%</p>
                <p class="card__shock card__shock--none"></p>
@@ -163,10 +163,10 @@
                <p class="card__square">98 м<sup>2</sup> <span>площадь</span></p>
                <p class="card__stage">14/14 <span>этаж</span></p>
              </div>
-             <div class="card__price">23 900 000 руб.</div>
+             <div class="card__price"><span class="price__number">23900000</span> руб.</div>
             <button class="card__button">Забронировано</button>
           </div>
-          <div class="main__card main__card--free">
+          <div class="main__card main__card--free card__sort">
             <div class="card__promo">
               <p class="card__discount card__discount--none"></p>
               <p class="card__shock card__shock--none"></p>
@@ -179,10 +179,10 @@
               <p class="card__square">36 м<sup>2</sup> <span>площадь</span></p>
               <p class="card__stage">3/6 <span>этаж</span></p>
             </div>
-            <div class="card__price">5 666 000 руб.</div>
+            <div class="card__price"><span class="price__number">5666000</span> руб.</div>
            <button class="card__button card__button--free">Свободно</button>
          </div>
-         <div class="main__card main__card--free">
+         <div class="main__card main__card--free card__sort">
            <div class="card__promo">
              <p class="card__discount card__discount--none"></p>
              <p class="card__shock card__shock--none"></p>
@@ -195,10 +195,10 @@
              <p class="card__square">86 м<sup>2</sup> <span>площадь</span></p>
              <p class="card__stage">1/6 <span>этаж</span></p>
            </div>
-           <div class="card__price">5 696 664 руб.</div>
+           <div class="card__price"><span class="price__number">5696664</span> руб.</div>
           <button class="card__button card__button--free">Свободно</button>
          </div>
-         <div class="main__card">
+         <div class="main__card card__sort">
            <div class="card__promo">
              <p class="card__discount">-9%</p>
              <p class="card__shock">Шок цена!</p>
@@ -211,10 +211,10 @@
              <p class="card__square">18 м<sup>2</sup> <span>площадь</span></p>
              <p class="card__stage">3/14 <span>этаж</span></p>
            </div>
-           <div class="card__price">1 200 000 руб.</div>
+           <div class="card__price"><span class="price__number">1200000</span> руб.</div>
           <button class="card__button">Забронировано</button>
         </div>
-        <div class="main__card">
+        <div class="main__card card__sort">
           <div class="card__promo">
             <p class="card__discount">-6%</p>
             <p class="card__shock card__shock--none"></p>
@@ -227,10 +227,10 @@
             <p class="card__square">38 м<sup>2</sup> <span>площадь</span></p>
             <p class="card__stage">6/14 <span>этаж</span></p>
           </div>
-          <div class="card__price">1 500 500 руб.</div>
+          <div class="card__price"><span class="price__number">1500500</span> руб.</div>
          <button class="card__button">Забронировано</button>
        </div>
-       <div class="main__card">
+       <div class="main__card card__sort">
          <div class="card__promo">
            <p class="card__discount card__discount--none"></p>
            <p class="card__shock card__shock--none"></p>
@@ -243,10 +243,10 @@
            <p class="card__square">48 м<sup>2</sup> <span>площадь</span></p>
            <p class="card__stage">3/14 <span>этаж</span></p>
          </div>
-         <div class="card__price">6 200 000 руб.</div>
+         <div class="card__price"><span class="price__number">6200000</span> руб.</div>
         <button class="card__button">Забронировано</button>
        </div>
-       <div class="main__card">
+       <div class="main__card card__sort">
          <div class="card__promo">
            <p class="card__discount">-6%</p>
            <p class="card__shock card__shock--none"></p>
@@ -259,13 +259,13 @@
            <p class="card__square">48 м<sup>2</sup> <span>площадь</span></p>
            <p class="card__stage">3/14 <span>этаж</span></p>
          </div>
-         <div class="card__price">5 255 006 руб.</div>
+         <div class="card__price"><span class="price__number">5255006</span> руб.</div>
         <button class="card__button">Забронировано</button>
       </div>
 
 
 
-                    <div class="main__card">
+                    <div class="main__card card__sort">
                       <div class="card__promo">
                         <p class="card__discount card__discount--none"></p>
                         <p class="card__shock card__shock--none"></p>
@@ -278,10 +278,10 @@
                         <p class="card__square">28 м<sup>2</sup> <span>площадь</span></p>
                         <p class="card__stage">12/14 <span>этаж</span></p>
                       </div>
-                      <div class="card__price">1 900 000 руб.</div>
+                      <div class="card__price"><span class="price__number">1 900 000</span> руб.</div>
                       <button class="card__button">Забронировано</button>
                     </div>
-                    <div class="main__card main__card--free">
+                    <div class="main__card main__card--free card__sort">
                       <div class="card__promo">
                         <p class="card__discount card__discount--none"></p>
                         <p class="card__shock card__shock--none"></p>
@@ -294,10 +294,10 @@
                         <p class="card__square">66 м<sup>2</sup> <span>площадь</span></p>
                         <p class="card__stage">6/6 <span>этаж</span></p>
                       </div>
-                      <div class="card__price">1 666 666 руб.</div>
+                      <div class="card__price"><span class="price__number">1666666</span> руб.</div>
                      <button class="card__button card__button--free">Свободно</button>
                   </div>
-                      <div class="main__card main__card--sale">
+                      <div class="main__card main__card--sale card__sort">
                         <div class="card__promo">
                           <p class="card__discount card__discount--none"></p>
                           <p class="card__shock card__shock--none"></p>
@@ -310,10 +310,10 @@
                           <p class="card__square">65.6 м<sup>2</sup> <span>площадь</span></p>
                           <p class="card__stage">7/14 <span>этаж</span></p>
                         </div>
-                        <div class="card__price">5 900 000 руб.</div>
+                        <div class="card__price"><span class="price__number">5900000</span> руб.</div>
                        <button class="card__button card__button--sale">Продано</button>
                     </div>
-                    <div class="main__card">
+                    <div class="main__card card__sort">
                       <div class="card__promo">
                         <p class="card__discount card__discount--none"></p>
                         <p class="card__shock card__shock--none"></p>
@@ -326,10 +326,10 @@
                         <p class="card__square">56 м<sup>2</sup> <span>площадь</span></p>
                         <p class="card__stage">1/14 <span>этаж</span></p>
                       </div>
-                      <div class="card__price">12 900 000 руб.</div>
+                      <div class="card__price"><span class="price__number">12900000</span> руб.</div>
                      <button class="card__button">Забронировано</button>
                   </div>
-                  <div class="main__card">
+                  <div class="main__card card__sort">
                     <div class="card__promo">
                       <p class="card__discount">-17%</p>
                       <p class="card__shock">Шок цена!</p>
@@ -342,10 +342,10 @@
                       <p class="card__square">18 м<sup>2</sup> <span>площадь</span></p>
                       <p class="card__stage">12/14 <span>этаж</span></p>
                     </div>
-                    <div class="card__price">1 900 000 руб.</div>
+                    <div class="card__price"><span class="price__number">1900000</span> руб.</div>
                    <button class="card__button">Забронировано</button>
                   </div>
-                  <div class="main__card">
+                  <div class="main__card card__sort">
                     <div class="card__promo">
                       <p class="card__discount">-6%</p>
                       <p class="card__shock card__shock--none"></p>
@@ -358,10 +358,10 @@
                       <p class="card__square">98 м<sup>2</sup> <span>площадь</span></p>
                       <p class="card__stage">14/14 <span>этаж</span></p>
                     </div>
-                    <div class="card__price">23 900 000 руб.</div>
+                    <div class="card__price"><span class="price__number">23900000</span> руб.</div>
                    <button class="card__button">Забронировано</button>
                  </div>
-                 <div class="main__card main__card--free">
+                 <div class="main__card main__card--free card__sort">
                    <div class="card__promo">
                      <p class="card__discount card__discount--none"></p>
                      <p class="card__shock card__shock--none"></p>
@@ -374,10 +374,10 @@
                      <p class="card__square">36 м<sup>2</sup> <span>площадь</span></p>
                      <p class="card__stage">3/6 <span>этаж</span></p>
                    </div>
-                   <div class="card__price">5 666 000 руб.</div>
+                   <div class="card__price"><span class="price__number">5666000</span> руб.</div>
                   <button class="card__button card__button--free">Свободно</button>
                 </div>
-                <div class="main__card main__card--free">
+                <div class="main__card main__card--free card__sort">
                   <div class="card__promo">
                     <p class="card__discount card__discount--none"></p>
                     <p class="card__shock card__shock--none"></p>
@@ -390,10 +390,10 @@
                     <p class="card__square">86 м<sup>2</sup> <span>площадь</span></p>
                     <p class="card__stage">1/6 <span>этаж</span></p>
                   </div>
-                  <div class="card__price">5 696 664 руб.</div>
+                  <div class="card__price"><span class="price__number">5696664</span> руб.</div>
                  <button class="card__button card__button--free">Свободно</button>
                 </div>
-                <div class="main__card">
+                <div class="main__card card__sort">
                   <div class="card__promo">
                     <p class="card__discount">-9%</p>
                     <p class="card__shock">Шок цена!</p>
@@ -406,10 +406,10 @@
                     <p class="card__square">18 м<sup>2</sup> <span>площадь</span></p>
                     <p class="card__stage">3/14 <span>этаж</span></p>
                   </div>
-                  <div class="card__price">1 200 000 руб.</div>
+                  <div class="card__price"><span class="price__number">1200000</span> руб.</div>
                  <button class="card__button">Забронировано</button>
                 </div>
-                <div class="main__card">
+                <div class="main__card card__sort">
                  <div class="card__promo">
                    <p class="card__discount">-6%</p>
                    <p class="card__shock card__shock--none"></p>
@@ -422,10 +422,10 @@
                    <p class="card__square">38 м<sup>2</sup> <span>площадь</span></p>
                    <p class="card__stage">6/14 <span>этаж</span></p>
                  </div>
-                 <div class="card__price">1 500 500 руб.</div>
+                 <div class="card__price"><span class="price__number">1500500</span> руб.</div>
                 <button class="card__button">Забронировано</button>
                 </div>
-                <div class="main__card">
+                <div class="main__card card__sort">
                 <div class="card__promo">
                   <p class="card__discount card__discount--none"></p>
                   <p class="card__shock card__shock--none"></p>
@@ -438,10 +438,10 @@
                   <p class="card__square">48 м<sup>2</sup> <span>площадь</span></p>
                   <p class="card__stage">3/14 <span>этаж</span></p>
                 </div>
-                <div class="card__price">6 200 000 руб.</div>
+                <div class="card__price"><span class="price__number">6200000</span> руб.</div>
                 <button class="card__button">Забронировано</button>
                 </div>
-                <div class="main__card">
+                <div class="main__card card__sort">
                 <div class="card__promo">
                   <p class="card__discount">-6%</p>
                   <p class="card__shock card__shock--none"></p>
@@ -454,10 +454,10 @@
                   <p class="card__square">48 м<sup>2</sup> <span>площадь</span></p>
                   <p class="card__stage">3/14 <span>этаж</span></p>
                 </div>
-                <div class="card__price">5 255 006 руб.</div>
+                <div class="card__price"><span class="price__number">5255006</span> руб.</div>
                 <button class="card__button">Забронировано</button>
                 </div>
-                <div class="main__card">
+                <div class="main__card card__sort">
                   <div class="card__promo">
                     <p class="card__discount card__discount--none"></p>
                     <p class="card__shock card__shock--none"></p>
@@ -470,10 +470,10 @@
                     <p class="card__square">28 м<sup>2</sup> <span>площадь</span></p>
                     <p class="card__stage">12/14 <span>этаж</span></p>
                   </div>
-                  <div class="card__price">1 900 000 руб.</div>
+                  <div class="card__price"><span class="price__number">1900000</span> руб.</div>
                   <button class="card__button">Забронировано</button>
                 </div>
-                <div class="main__card main__card--free">
+                <div class="main__card main__card--free card__sort">
                   <div class="card__promo">
                     <p class="card__discount card__discount--none"></p>
                     <p class="card__shock card__shock--none"></p>
@@ -486,10 +486,10 @@
                     <p class="card__square">66 м<sup>2</sup> <span>площадь</span></p>
                     <p class="card__stage">6/6 <span>этаж</span></p>
                   </div>
-                  <div class="card__price">1 666 666 руб.</div>
+                  <div class="card__price"><span class="price__number">1666666</span> руб.</div>
                  <button class="card__button card__button--free">Свободно</button>
               </div>
-                  <div class="main__card main__card--sale">
+                  <div class="main__card main__card--sale card__sort">
                     <div class="card__promo">
                       <p class="card__discount card__discount--none"></p>
                       <p class="card__shock card__shock--none"></p>
@@ -502,10 +502,10 @@
                       <p class="card__square">65.6 м<sup>2</sup> <span>площадь</span></p>
                       <p class="card__stage">7/14 <span>этаж</span></p>
                     </div>
-                    <div class="card__price">5 900 000 руб.</div>
+                    <div class="card__price"><span class="price__number">5900000</span> руб.</div>
                    <button class="card__button card__button--sale">Продано</button>
                 </div>
-                <div class="main__card">
+                <div class="main__card card__sort">
                   <div class="card__promo">
                     <p class="card__discount card__discount--none"></p>
                     <p class="card__shock card__shock--none"></p>
@@ -518,10 +518,10 @@
                     <p class="card__square">56 м<sup>2</sup> <span>площадь</span></p>
                     <p class="card__stage">1/14 <span>этаж</span></p>
                   </div>
-                  <div class="card__price">12 900 000 руб.</div>
+                  <div class="card__price"><span class="price__number">12900000</span> руб.</div>
                  <button class="card__button">Забронировано</button>
               </div>
-              <div class="main__card">
+              <div class="main__card card__sort">
                 <div class="card__promo">
                   <p class="card__discount">-17%</p>
                   <p class="card__shock">Шок цена!</p>
@@ -534,10 +534,10 @@
                   <p class="card__square">18 м<sup>2</sup> <span>площадь</span></p>
                   <p class="card__stage">12/14 <span>этаж</span></p>
                 </div>
-                <div class="card__price">1 900 000 руб.</div>
+                <div class="card__price"><span class="price__number">1900000</span> руб.</div>
                <button class="card__button">Забронировано</button>
               </div>
-              <div class="main__card">
+              <div class="main__card card__sort">
                 <div class="card__promo">
                   <p class="card__discount">-6%</p>
                   <p class="card__shock card__shock--none"></p>
@@ -550,10 +550,10 @@
                   <p class="card__square">98 м<sup>2</sup> <span>площадь</span></p>
                   <p class="card__stage">14/14 <span>этаж</span></p>
                 </div>
-                <div class="card__price">23 900 000 руб.</div>
+                <div class="card__price"><span class="price__number">23900000</span> руб.</div>
                <button class="card__button">Забронировано</button>
               </div>
-              <div class="main__card main__card--free">
+              <div class="main__card main__card--free card__sort">
                <div class="card__promo">
                  <p class="card__discount card__discount--none"></p>
                  <p class="card__shock card__shock--none"></p>
@@ -566,10 +566,10 @@
                  <p class="card__square">36 м<sup>2</sup> <span>площадь</span></p>
                  <p class="card__stage">3/6 <span>этаж</span></p>
                </div>
-               <div class="card__price">5 666 000 руб.</div>
+               <div class="card__price"><span class="price__number">5666000</span> руб.</div>
               <button class="card__button card__button--free">Свободно</button>
               </div>
-              <div class="main__card main__card--free">
+              <div class="main__card main__card--free card__sort">
               <div class="card__promo">
                 <p class="card__discount card__discount--none"></p>
                 <p class="card__shock card__shock--none"></p>
@@ -582,10 +582,10 @@
                 <p class="card__square">86 м<sup>2</sup> <span>площадь</span></p>
                 <p class="card__stage">1/6 <span>этаж</span></p>
               </div>
-              <div class="card__price">5 696 664 руб.</div>
+              <div class="card__price"><span class="price__number">5696664</span> руб.</div>
               <button class="card__button card__button--free">Свободно</button>
               </div>
-              <div class="main__card main__card--free">
+              <div class="main__card main__card--free card__sort">
               <div class="card__promo">
                 <p class="card__discount card__discount--none"></p>
                 <p class="card__shock card__shock--none"></p>
@@ -598,7 +598,7 @@
                 <p class="card__square">86 м<sup>2</sup> <span>площадь</span></p>
                 <p class="card__stage">1/6 <span>этаж</span></p>
               </div>
-              <div class="card__price">5 696 664 руб.</div>
+              <div class="card__price"><span class="price__number">5696664</span> руб.</div>
               <button class="card__button card__button--free">Свободно</button>
               </div>
             <button id="loadMore" class="main__button"><a href="#">Показать еще 20</a></button>
@@ -640,6 +640,7 @@
 
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
   <script src="//cdnjs.cloudflare.com/ajax/libs/list.js/1.5.0/list.min.js"></script>
+  <script src="js/accounting.js"></script>
   <script src="js/loadmore.js"></script>
   <script src="js/formvalidation.js"></script>
   <script src="js/sortelements.js"></script>
